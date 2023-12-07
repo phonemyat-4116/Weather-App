@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans:wght@200;300&family=Open+Sans:wght@300;400&family=Outfit:wght@300&family=Poppins:wght@300&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #6247A4, #9e8dab);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card{
+    width: 350px;
+    max-width: 350px;
+    height: 500px;
+    background: linear-gradient(150deg, #21284E, #6247A4, #A881DA);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.search .search-input{
+    width: 250px;
+    border: 0;
+    outline: 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(#6247A4,#9e8dab);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.weather .main-weather{
+    width: 150px;
+}
+
+.weather .temp-degree, .weather .location{
+    color: #fff;
+}
+
+.temp-degree{
+    letter-spacing: 3px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: linear-gradient(#A881DA,#6247A4);
+}
+
+.humidity-section h4, .windspeed-section h4, .humidity-section small, .windspeed-section small{
+    color: #fff;
+}
+
+.humidity-info, .windspeed-info{
+    margin-left: 20px;
+}
+
+.humidity-section i, .windspeed-section i{
+    font-size: 20px;
+    color: #fff;
+}
+
+.humidity-section, .windspeed-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.error{
+    color: #fff;
+    background-color: #dc3545;
+    border-radius: 20px;
+    padding: 5px 0;
+    display: none;
+}

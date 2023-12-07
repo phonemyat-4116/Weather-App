@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <!-- custom css 1  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome cdn css 1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" name="" id="" class="search-input" placeholder="Location..." spellcheck="false">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <small class="error"></small>
+        <div class="weather">
+            <img src="./weather-app-img/images/rain.png" class="main-weather" alt="rain">
+            <h1 class="temp-degree">22°C</h1>
+            <h2 class="location">Myanmar</h2>
+            <div class="details">
+                <div class="humidity-section">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="humidity-info">
+                        <h4 class="humidity-percentage">53%</h4>
+                        <small>Humidity</small>
+                    </div>
+                </div>
+
+                <div class="windspeed-section">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="windspeed-info">
+                        <h4 class="windspeed">5.66 km/h</h4>
+                        <small>Wind Speed</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
